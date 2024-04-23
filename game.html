@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="gamestyles.css" />
+  </head>
+  <body>
+    <!--Eto yung navbar chinchin mataba-->
+    <div class="navbar">
+      <div class="navigationbutt">
+        <a href="index.html">Home</a>
+        <a href="game.html" class="active">Game</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="loginsht">
+        <input
+          type="text"
+          name="Username"
+          id="username"
+          placeholder="Username"
+        />
+        <input
+          type="text"
+          name="Password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+    </div>
+    <!--Dito yung dulo nung navbar, chinchin-->
+    <!--Start ng questionnaire-->
+    <div class="content">
+      <div class="questionnaire">
+        <img src="download.jpg" alt="" />
+        <div class="questionsht">
+          <div class="tanong">
+            <p class="question" id="tanong">Tanong number 1</p>
+          </div>
+          <div class="answers" id="sagot"></div>
+          <button class="sagotbtn" id="next" onclick="next()">Next</button>
+        </div>
+      </div>
+    </div>
+    <!--Dulo ng questionnaire-->
+    <script src="gamescript.js"></script>
+  </body>
+</html>
